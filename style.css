@@ -112,32 +112,32 @@
 
 /* Seção Primeiro Anúncio | First Ad Section */
 
-.container-anuncio1 {
+.container-anuncio {
   background-color: #233032;
   text-align: center;
   padding: 40px 0px;
   height: 150px;
 }
 
-.container-anuncio1-conteudo {
+.container-anuncio-conteudo {
   position: relative;
   width: 1024px;
   height: 100%;
 }
 
-.container-anuncio1-textos {
+.container-anuncio-textos {
   position: absolute;
   width: 600px;
   text-align: left;
   line-height: 35px;
 }
 
-.container-anuncio1 h2 {
+.container-anuncio h2 {
   font-size: 24px;
   color: #fff;
 }
 
-.container-anuncio1 p {
+.container-anuncio p {
   font-size: 16px;
   color: #fff;
 }
@@ -151,7 +151,6 @@
   right: 0;
   padding: 20px;
 }
-
 
 .container-botao a {
   font-size: 18px;
@@ -259,19 +258,8 @@
   background-color: #2f86d6;
 }
 
-.container-anuncio2-texto h2 {
-  font-size: 24px;
-  color: #fff;
-}
-
 .container-botao2 {
   background-color: #233032;
-}
-
-.container-botao2 a {
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
 }
 
 /* Seção Rodapé | Footer Section */
