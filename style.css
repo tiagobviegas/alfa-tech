@@ -172,12 +172,18 @@
 
 .container-informacoes {
   background-color: #fff;
+  padding: 100px 0px;
+  height: fit-content;
+  text-align: center;
 }
 
 .container-informacoes img {
   width: 100px;
 }
 
+.containeir-informacoes-subtitulo {
+  width: 900px;
+}
 .container-informacoes h2 {
   font-size: 32px;
   color: #000000;
@@ -198,10 +204,20 @@
   color: #000000;
 }
 
+.container-vantagem img, h3, p {
+  padding-top: 20px;
+}
+
+.container-informacoes-vantagens {
+  padding-top: 40px;
+  max-width: 1024px;
+}
+
+
 .container-vantagem {
   text-align: center;
   display: inline-block;
-  width: 300px;
+  width: 33%;
 }
 
 /* Seção Planos | Plans Section */
@@ -297,3 +313,4 @@
 .container-desenvolvedor span {
   color: #2f86d6;
 }
+
