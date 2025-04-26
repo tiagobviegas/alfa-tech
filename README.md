@@ -9,10 +9,10 @@ Project of a fictional hosting website to practice positioning and table feature
 ## PROGRESSO
 - [X] Estruturação da página HTML para posterior estilização
 - [X] Reset das especificações CSS padrões
-- [ ] Definição de elementos essenciais e estilizações comuns
+- [X] Definição de elementos essenciais e estilizações comuns
 ### Primeira Página
-- [ ] Sessão 1 - Topo - concluída
-- [ ] Sessão 2 - Banner - concluída
+- [X] Sessão 1 - Topo - concluída
+- [X] Sessão 2 - Banner - concluída
 - [ ] Sessão 3 - Informações - concluída
 - [ ] Sessão 4 - Primeiro Anúncio - concluída
 - [ ] Sessão 5 - Planos - concluída
@@ -28,10 +28,10 @@ Project of a fictional hosting website to practice positioning and table feature
 ## PROGRESS
 - [X] HTML structuring for styling work
 - [X] Reset CSS standard specs
-- [ ] Definition of essential elements and common styles
+- [X] Definition of essential elements and common styles
 ### Primeira Página
-- [ ] Section 1 - Header - concluded
-- [ ] Section 2 - Banner - concluded
+- [X] Section 1 - Header - concluded
+- [X] Section 2 - Banner - concluded
 - [ ] Section 3 - Info - concluded
 - [ ] Section 4 - First Ad - concluded
 - [ ] Section 5 - Plan - concluded
