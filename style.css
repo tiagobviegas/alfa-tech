@@ -222,22 +222,36 @@
 
 /* Seção Planos | Plans Section */
 
+
+.container-planos {
+  height: fit-content;
+  padding: 100px 0px;
+  background-color: rgba(242, 244, 247, 1);
+}
+
 .container-planos-titulo {
-  background-color: #fff;
   text-align: center;
 }
 
 .container-planos-titulo h2 {
   font-size: 32px;
   color: #000000;
+  padding-bottom: 70px;
 }
 
 .container-planos-titulo span {
   color: #2f86d6;
 }
 
+.tabela-planos {
+  width: 1024px;
+  border-collapse: collapse;
+}
+
 .container-planos-tabela {
-  box-shadow: 0px 0px 40px 0px rgba(47, 134, 214, 1);
+  width: 1024px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 15px rgba(47, 134, 214, 1);
 }
 
 .container-planos-tabela h3 {
@@ -246,6 +260,7 @@
 }
 
 .container-planos-tabela img {
+  padding-top: 20px;
   width: 120px;
 }
 
@@ -256,16 +271,30 @@
 
 .container-planos-tabela td {
   text-align: center;
+  padding: 15px;
+}
+
+td, th {
+  border: 2px solid #a89f9f20;
+}
+
+.tabela-planos thead tr p {
+  font-weight: 500;
+}
+
+.tabela-planos th {
+  padding: 20px 60px;
+  width: 25%;
 }
 
 .linha-impar {
   font-size: 16px;
-  background-color: #f6f6f6;
+  background-color: #f1f3f7;
 }
 
 .linha-par {
   font-size: 16px;
-  background-color: #f1f3f7;
+  background-color: #f6f6f6;
 }
 
 /* Seção Segundo Anúcio | Second Ad Section */
