@@ -15,7 +15,7 @@ Project of a fictional hosting website to practice positioning and table feature
 - [X] Sessão 2 - Banner - concluída
 - [X] Sessão 3 - Primeiro Anúncio - concluída
 - [X] Sessão 4 - Informações - concluída
-- [ ] Sessão 5 - Planos - concluída
+- [X] Sessão 5 - Planos - concluída
 - [ ] Sessão 6 - Segundo Anúncio - concluída
 - [ ] Sessão 7 - Rodapé - concluída
 ### Segunda Página
@@ -34,7 +34,7 @@ Project of a fictional hosting website to practice positioning and table feature
 - [X] Section 2 - Banner - concluded
 - [X] Section 3 - First Ad - concluded
 - [X] Section 4 - Info - concluded
-- [ ] Section 5 - Plan - concluded
+- [X] Section 5 - Plans - concluded
 - [ ] Section 6 - Second Ad - concluded
 - [ ] Section 7 - Footer - concluded
 ### Segunda Página
