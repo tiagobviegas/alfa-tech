@@ -13,8 +13,8 @@ Project of a fictional hosting website to practice positioning and table feature
 ### Primeira Página
 - [X] Sessão 1 - Topo - concluída
 - [X] Sessão 2 - Banner - concluída
-- [ ] Sessão 3 - Informações - concluída
-- [ ] Sessão 4 - Primeiro Anúncio - concluída
+- [X] Sessão 3 - Primeiro Anúncio - concluída
+- [ ] Sessão 4 - Informações - concluída
 - [ ] Sessão 5 - Planos - concluída
 - [ ] Sessão 6 - Segundo Anúncio - concluída
 - [ ] Sessão 7 - Rodapé - concluída
@@ -32,8 +32,8 @@ Project of a fictional hosting website to practice positioning and table feature
 ### Primeira Página
 - [X] Section 1 - Header - concluded
 - [X] Section 2 - Banner - concluded
-- [ ] Section 3 - Info - concluded
-- [ ] Section 4 - First Ad - concluded
+- [X] Section 3 - First Ad - concluded
+- [ ] Section 4 - Info - concluded
 - [ ] Section 5 - Plan - concluded
 - [ ] Section 6 - Second Ad - concluded
 - [ ] Section 7 - Footer - concluded

@@ -114,6 +114,22 @@
 
 .container-anuncio1 {
   background-color: #233032;
+  text-align: center;
+  padding: 40px 0px;
+  height: 150px;
+}
+
+.container-anuncio1-conteudo {
+  position: relative;
+  width: 1024px;
+  height: 100%;
+}
+
+.container-anuncio1-textos {
+  position: absolute;
+  width: 600px;
+  text-align: left;
+  line-height: 35px;
 }
 
 .container-anuncio1 h2 {
@@ -127,13 +143,31 @@
 }
 
 .container-botao {
+  position: absolute;
   background-color: #2f86d6;
+  width: fit-content;
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  padding: 20px;
 }
+
 
 .container-botao a {
   font-size: 18px;
   text-decoration: none;
 }
+
+.container-botao a img {
+  display: inline-block;
+}
+
+.container-botao a p {
+  display: inline;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 
 /* Seção Informações | Info Section */
 
