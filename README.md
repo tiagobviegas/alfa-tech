@@ -19,9 +19,9 @@ Project of a fictional hosting website to practice positioning and table feature
 - [ ] Sessão 6 - Segundo Anúncio - concluída
 - [ ] Sessão 7 - Rodapé - concluída
 ### Segunda Página
-- [ ] Seção 1 - Topo - Concluída
-- [ ] Seção 2 - Conteúdo Principal (tabela) - Concluída
-- [ ] Seção 3 - Rodapé - Concluída
+- [X] Seção 1 - Topo - Concluída
+- [X] Seção 2 - Conteúdo Principal (tabela) - Concluída
+- [X] Seção 3 - Rodapé - Concluída
 - [ ] Projeto concluído
 - [ ] Refatoração
 
@@ -38,8 +38,8 @@ Project of a fictional hosting website to practice positioning and table feature
 - [ ] Section 6 - Second Ad - concluded
 - [ ] Section 7 - Footer - concluded
 ### Segunda Página
-- [ ] Section 1 - Header - Concluded
-- [ ] Section 2 - Main Content (table) - Concluded
-- [ ] Section 3 - Footer - Concluded
+- [X] Section 1 - Header - Concluded
+- [X] Section 2 - Main Content (table) - Concluded
+- [X] Section 3 - Footer - Concluded
 - [ ] Project concluded
 - [ ] Refactoring
