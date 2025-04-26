@@ -7,8 +7,8 @@ Projeto de um site de hospedagem para praticar positionamento e recursos de tabe
 Project of a fictional hosting website to practice positioning and table features.
 
 ## PROGRESSO
-- [ ] Estruturação da página HTML para posterior estilização
-- [ ] Reset das especificações CSS padrões
+- [X] Estruturação da página HTML para posterior estilização
+- [X] Reset das especificações CSS padrões
 - [ ] Definição de elementos essenciais e estilizações comuns
 ### Primeira Página
 - [ ] Sessão 1 - Topo - concluída
@@ -26,8 +26,8 @@ Project of a fictional hosting website to practice positioning and table feature
 - [ ] Refatoração
 
 ## PROGRESS
-- [ ] HTML structuring for styling work
-- [ ] Reset CSS standard specs
+- [X] HTML structuring for styling work
+- [X] Reset CSS standard specs
 - [ ] Definition of essential elements and common styles
 ### Primeira Página
 - [ ] Section 1 - Header - concluded
