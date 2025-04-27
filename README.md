@@ -23,15 +23,14 @@ Project of a fictional hosting website to practice positioning and table feature
 - [X] Seção 1 - Topo - Concluída
 - [X] Seção 2 - Conteúdo Principal (tabela) - Concluída
 - [X] Seção 3 - Rodapé - Concluída
-- [ ] Refatoração
-
-- [ ] Projeto concluído
+- [X] Refatoração
+- [X] Projeto concluído
 
 ## PROGRESS
 - [X] HTML structuring for styling work
 - [X] Reset CSS standard specs
 - [X] Definition of essential elements and common styles
-### Primeira Página
+### First Page
 - [X] Section 1 - Header - concluded
 - [X] Section 2 - Banner - concluded
 - [X] Section 3 - First Ad - concluded
@@ -40,10 +39,9 @@ Project of a fictional hosting website to practice positioning and table feature
 - [X] Section 6 - Second Ad - concluded
 - [X] Section 7 - Footer - concluded
 - [X] Refactoring
-### Segunda Página
+### Second Page
 - [X] Section 1 - Header - Concluded
 - [X] Section 2 - Main Content (table) - Concluded
 - [X] Section 3 - Footer - Concluded
-- [ ] Refactoring
-
-- [ ] Project concluded
+- [X] Refactoring
+- [X] Project concluded

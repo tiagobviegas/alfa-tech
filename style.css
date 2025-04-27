@@ -9,13 +9,9 @@
 
 /* Global CSS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-.container-topo-conteudo,
-.container-banner-conteudo,
-.container-anuncio-conteudo,
 .container-informacoes-vantagens,
 .tabela-planos,
-.container-planos-tabela,
-.container-rodape-conteudo {
+.container-planos-tabela {
   width: 1024px;
 }
 
@@ -27,20 +23,23 @@
   font-weight: 600;
 }
 
-.container-topo-conteudo,
-.container-banner-conteudo,
-.container-anuncio-conteudo,
 .container-rodape,
-.container-rodape-conteudo,
 .container-contatos-logo {
   position: relative;
 }
 
+.container-topo-conteudo,
+.container-banner-conteudo,
+.container-anuncio-conteudo,
+.container-rodape-conteudo {
+  position: relative;
+  width: 1024px;
+
+}
+
 .container-logo,
 .subcontainer-logo-textos,
-.container-links,
 .banner-textos,
-.container-banner-imagens,
 .container-anuncio-textos,
 .container-botao,
 .container-contatos-textos {
@@ -57,11 +56,16 @@
   text-align: center;
 }
 
-.container-links,
-.container-banner-imagens,
 .container-banner-imagens img {
   text-align: right;
 }
+
+.container-links,
+.container-banner-imagens {
+  position: absolute;
+  text-align: right;
+}
+
 
 .container-topo,
 .container-banner,
