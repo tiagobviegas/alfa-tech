@@ -1,3 +1,5 @@
+/* Reset CSS */
+
 * {
   margin: 0 auto;
   padding: 0;
@@ -5,22 +7,102 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Seção Topo | Head Section */
+/* Global CSS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-.container-topo {
-  padding: 35px 0px;
+.container-topo-conteudo,
+.container-banner-conteudo,
+.container-anuncio-conteudo,
+.container-informacoes-vantagens,
+.tabela-planos,
+.container-planos-tabela,
+.container-rodape-conteudo {
+  width: 1024px;
+}
+
+.subcontainer-logo-textos p,
+.container-links a,
+.container-contatos-logo p,
+.container-contatos-info,
+.container-desenvolvedor {
+  font-weight: 600;
+}
+
+.container-topo-conteudo,
+.container-banner-conteudo,
+.container-anuncio-conteudo,
+.container-rodape,
+.container-rodape-conteudo,
+.container-contatos-logo {
+  position: relative;
+}
+
+.container-logo,
+.subcontainer-logo-textos,
+.container-links,
+.banner-textos,
+.container-banner-imagens,
+.container-anuncio-textos,
+.container-botao,
+.container-contatos-textos {
+  position: absolute;
+}
+
+.container-anuncio,
+.container-informacoes,
+.container-vantagem,
+.container-planos-titulo,
+.container-planos-tabela td,
+.container-rodape-conteudo,
+.container-desenvolvedor {
+  text-align: center;
+}
+
+.container-links,
+.container-banner-imagens,
+.container-banner-imagens img {
+  text-align: right;
+}
+
+.container-topo,
+.container-banner,
+.container-informacoes,
+.container-planos,
+.container-rodape {
   height: fit-content;
+}
+
+.subcontainer-logo-textos p,
+.container-informacoes span,
+.container-planos-titulo span,
+.container-contatos-logo p,
+.container-desenvolvedor p span {
+  color: #2f86d6;
+}
+
+.container-topo,
+.container-informacoes,
+.container-rodape {
   background-color: #fff;
 }
 
+.banner-textos p,
+.banner-textos h2,
+.container-anuncio h2,
+.container-anuncio p {
+  color: #fff;
+}
+
+/* Seção Topo | Head Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.container-topo {
+  padding: 35px 0px;
+}
+
 .container-topo-conteudo {
-  position: relative;
-  max-width: 1024px;
   height: 10vh;
 }
 
 .container-logo {
-  position: absolute;
   width: 320px;
 }
 
@@ -30,7 +112,6 @@
 
 .subcontainer-logo-textos {
   padding-left: 15px;
-  position: absolute;
   display: inline-block;
   top: 0;
 }
@@ -38,17 +119,15 @@
 .subcontainer-logo-textos h1 {
   font-size: 32px;
   color: #000000;
+  line-height: 1px;
+  padding-top: 25px;
 }
 
 .subcontainer-logo-textos p {
   font-size: 16px;
-  font-weight: 600;
-  color: #2f86d6;
 }
 
 .container-links {
-  position: absolute;
-  text-align: right;
   width: 500px;
   right: 0;
   top: 3.5vh;
@@ -56,29 +135,24 @@
 }
 
 .container-links a {
-  font-weight: 600;
   padding-left: 25px;
   text-decoration: none;
   font-size: 18px;
   color: #233032;
 }
 
-/* Seção Banner | Banner section */
+/* Seção Banner | Banner section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .container-banner {
   padding: 100px 0px;
   background-color: #2f86d6;
-  height: fit-content;
 }
 
 .container-banner-conteudo {
-  position: relative;
-  width: 1024px;
   height: 50vh;
 }
 
 .banner-textos {
-  position: absolute;
   width: 470px;
   left: 0;
   top: 18%;
@@ -86,64 +160,53 @@
 
 .banner-textos p {
   font-size: 17px;
-  color: #fff;
   padding-bottom: 20px;
 }
 
 .banner-textos h2 {
   font-size: 28px;
-  color: #fff; 
-  padding-bottom: 20px;
 }
 
 .container-banner-imagens {
-  position: absolute;
   top: 0%;
   right: 0;
   bottom: 0;
-  text-align: right;
 }
 
 .container-banner-imagens img {
   width: 90%;
-  text-align: right;
 }
 
-
-/* Seção Primeiro Anúncio | First Ad Section */
+/* Seção Primeiro Anúncio | First Ad Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .container-anuncio {
   background-color: #233032;
-  text-align: center;
   padding: 40px 0px;
   height: 150px;
 }
 
 .container-anuncio-conteudo {
-  position: relative;
-  width: 1024px;
   height: 100%;
 }
 
 .container-anuncio-textos {
-  position: absolute;
   width: 600px;
   text-align: left;
-  line-height: 35px;
+}
+
+.container-anuncio-textos p {
+  line-height: 1px;
 }
 
 .container-anuncio h2 {
   font-size: 24px;
-  color: #fff;
 }
 
 .container-anuncio p {
   font-size: 16px;
-  color: #fff;
 }
 
 .container-botao {
-  position: absolute;
   background-color: #2f86d6;
   width: fit-content;
   border-radius: 5px;
@@ -167,14 +230,10 @@
   font-weight: 700;
 }
 
-
-/* Seção Informações | Info Section */
+/* Seção Informações | Info Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .container-informacoes {
-  background-color: #fff;
   padding: 100px 0px;
-  height: fit-content;
-  text-align: center;
 }
 
 .container-informacoes img {
@@ -191,7 +250,6 @@
 
 .container-informacoes span {
   font-size: 32px;
-  color: #2f86d6;
 }
 
 .container-informacoes h3 {
@@ -210,27 +268,18 @@
 
 .container-informacoes-vantagens {
   padding-top: 40px;
-  max-width: 1024px;
 }
 
-
 .container-vantagem {
-  text-align: center;
   display: inline-block;
   width: 33%;
 }
 
-/* Seção Planos | Plans Section */
-
+/* Seção Planos | Plans Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */ 
 
 .container-planos {
-  height: fit-content;
   padding: 100px 0px;
   background-color: rgba(242, 244, 247, 1);
-}
-
-.container-planos-titulo {
-  text-align: center;
 }
 
 .container-planos-titulo h2 {
@@ -239,17 +288,11 @@
   padding-bottom: 70px;
 }
 
-.container-planos-titulo span {
-  color: #2f86d6;
-}
-
 .tabela-planos {
-  width: 1024px;
   border-collapse: collapse;
 }
 
 .container-planos-tabela {
-  width: 1024px;
   border-radius: 5px;
   box-shadow: 0px 0px 40px 15px rgba(47, 134, 214, 1);
 }
@@ -270,7 +313,6 @@
 }
 
 .container-planos-tabela td {
-  text-align: center;
   padding: 15px;
 }
 
@@ -279,7 +321,7 @@ td, th {
 }
 
 .tabela-planos thead tr p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .tabela-planos th {
@@ -297,7 +339,7 @@ td, th {
   background-color: #f6f6f6;
 }
 
-/* Seção Segundo Anúcio | Second Ad Section */
+/* Seção Segundo Anúcio | Second Ad Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .container-anuncio2 {
   background-color: #2f86d6;
@@ -307,39 +349,53 @@ td, th {
   background-color: #233032;
 }
 
-/* Seção Rodapé | Footer Section */
+/* Seção Rodapé | Footer Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .container-rodape {
-  background-color: #fff;
+  padding: 80px 0px;
+}
+
+.container-contatos-logo {
+  text-align: left;
+  width: 320px;
+  margin-bottom: 30px;
 }
 
 .container-contatos-logo img {
-  width: 100px;
+  left: 0;
+  width: 80px;
+}
+
+.container-contatos-textos {
+  display: inline-block;
+  text-align: left;
+  top: 15%;
+  padding-left: 20px;
 }
 
 .container-contatos-logo h1 {
   font-size: 32px;
+  padding-top: 0px;
   color: #000000;
+  line-height: 1em;
 }
 
 .container-contatos-logo p {
+  padding-top: 5px;
   font-size: 16px;
-  color: #2f86d6;
-  font-weight: 600;
 }
 
 .container-contatos-info {
   font-size: 16px;
   color: #000000;
-  font-weight: 600;
+  line-height: normal;
 }
 
 .container-desenvolvedor {
-  font-weight: 600;
-  font-size: 16px;
+  background-color: rgba(242, 244, 247, 1);
+  font-size: 18px;
 }
 
-.container-desenvolvedor span {
-  color: #2f86d6;
+.container-desenvolvedor p {
+  padding-bottom: 15px;
 }
-
